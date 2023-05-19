@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+    z-index: 1000;
+}
+.logo{
+    margin-left: 3%;
+    
+}
+.logo img{
+    width: 4%;
+    margin-top: 1%;
+}
+nav ul {
+    margin-left: 15%;
+    position: relative;
+    top: -50%;
+    left: -8%;
+    display: inline-block ;
+}
+nav ul li {
+    display: inline-block ;
+    list-style: none;
+    margin-left:40px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+
+}
+nav p{
+    float: right;
+    margin-top: -50px;
+    font-family: Poppins;
+    font-size: px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    left: -60px;
+    padding: 7px 15px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    /* height: 100vh; */
+}
+.left-image{
+    position: relative;
+    left: -100px;
+    top: 10px;
+}
+.image img{
+    width:110% ;
+}
+.new{
+    position: relative;
+    left: 538px;
+    top: -602px;
+}
+.new img{
+    width: 170px;
+}
+.right-image{
+    position: relative;
+    left: -90px;
+    top: 225px;
+}
+.zero img{
+    width: 500px;
+}
+.try-image{
+    position: relative;
+    left: 70px;
+    top: 20px;
+}
+.try-image img{
+    width: 350px;
+}
+.video-1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    /* margin-top: 40px; */
+  
+}
+.video-1 img{ 
+    position: relative;
+    top: 50px;
+    width: 230px;
+    height: 110px;
+}
+/**NITRO**/
+.nitro{
+    margin-top: -176px;
+}
+.nitro .bg-image img{
+    width: 1349px;
+    height: 110vh;
+}
+.images-2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -587px;
+    left: 330px;
+    width: 350px;
+}
+.images-2 .pepsi-1 img{
+    width: 343px;
+    position: relative;
+    left: -105px;
+    top: 13px;
+}
+.images-2 .text-image img{
+    width: 400px;
+    position: relative;
+    top: 71px;
+}
+.images-2 .text-image h1{
+    position: relative;
+    top: 71px;
+    left: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: bold;
+}
+.images-2 .text-image span{
+    position: relative;
+    top: 87px;
+    left: 120px;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    padding: 6px 30px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+/**IMAGES**/
+.section-images{
+    background-color: #265cc5;
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    top: -502px;
+}
+.section-images .image-3{
+    position: relative;
+    top: 20px;
+    /* left: 50px; */
+}
+.section-images .image-3 img{
+    margin-bottom: 9px;
+    position: relative;
+    left: 18px;
+}
+.section-images .image-3 h3{
+    position: relative;
+    top: -34px;
+    margin-left: 18px;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    padding: 10px 76px;
+    background-color: #1437bf;
+    width: 430px;
+}
+.section-images .images-4 img{
+    width: 875px;
+    height: 625px;
+    position: relative;
+    left: 474px;
+    top: -595px;
+}
+.section-images .image-5 img{
+    position: relative;
+    top: -778px;
+    left: 848px;
+    width: 500px;
+}
+/**MANGO-SECTION**/
+.mango-section{
+    background-color: #004795;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -502px;
+}
+.mango-section .image-6 img{
+    width: 1264px;
+    position: relative;
+    top: 80px;
+}
+.mango-section .image-7 img{
+    width: 821px;
+    position: relative;
+    left: 528px;
+    top: -551px;
+}
+.mango-section .image-8 img{
+    width:400px ;
+    position: relative;
+    top: -1129px;
+    left: 37px;
+}
+.mango-section .image-9 img{
+    width:436px ;
+    position: relative;
+    top: -924px;
+    left: 37px; 
+}
+/**VIDEO-SECTION**/
+.video-sction{
+    position: relative;
+    top: -501px;
+}
+.video-sction video{
+    width: 100%;
+}
+
+/** what-i-like-it**/
+.what-i-like-it{
+    position: relative;
+    top: -507px;
+}
+.what-i-like-it .twill-bg img{
+    width: 100%;
+    
+}
+.what-i-like-it .twill-can{
+    position: relative;
+    top: -643px;
+    left: -9px;
+    width: 698px;
+}
+.what-i-like-it .twill-header{
+    position: relative;
+    top: -1174px;
+    left: 654px;
+    width: 552px;
+    /* background-color: yellow; */
+}
+/**FAV-FLAVOUR**/
+.flavour-section{
+    position: relative;
+    top: -1544px;
+}
+.flavour-section .background img{
+    width: 100%;
+    height: 100vh;
+    
+}
+.flavour-section .can-images img{
+    position: relative;
+    top: -777px;
+    left: 625px;
+    width: 675px;
+}
+.text h1{
+    position: relative;
+    top: -486px;
+    /* left: 144px; */
+    margin-left: 76px;
+    color: white;
+    font-size: 50px;
+    font-family: Poppins;
+}
+.text p{
+    position: relative;
+    top: -479px;
+    /* left: 144px; */
+    margin-left: 76px;
+    color: white;
+    font-size: 17px;
+    font-family: Poppins;
+}
+.text h3{
+    position: relative;
+    top: -456px;
+    /* left: 144px; */
+    margin-left: 76px;
+    color: white;
+    font-size: 17px;
+    font-family: Poppins;
+    padding: 7px 15px;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 195px;
+}
+/**STAY PULSE PEPSI**/
+.text-2 h1{
+    position: relative;
+    top: -2235px;
+    /* left: 144px; */
+    margin-left: 210px;
+    color: #1437bf;
+    font-size: 50px;
+    font-family: Poppins;
+}
+.all-images{
+    display: flex;
+    flex-direction: row;
+}
+.images-ftiy img{
+    position: relative;
+    top: -2229px;
+    left: 110px;
+    width: 227px;
+}
+footer{
+    margin-top: -2233px;
+    background-color: #1437bf;
+    width: 100%;
+    height: 50vh;
+}
+footer .footer-logo{
+    position: relative;
+    top: 127px;
+    margin-left: 55px;
+}
+footer .footer-text-1 h3{
+    position: relative;
+    top: 30px;
+    /* left: 144px; */
+    margin-left: 304px;
+    margin-bottom: 4px;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+}
+footer .footer-text-2 h3{
+    position: relative;
+    top: -71px;
+    /* left: 144px; */
+    margin-left: 540px;
+    margin-bottom: 4px;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+}
+footer .footer-text-3 h3{
+    position: relative;
+    top: -174px;
+    /* left: 144px; */
+    margin-left: 756px;
+    margin-bottom: 4px;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+}
+footer .footer-text-4 h3{
+    position: relative;
+    top: -277px;
+    /* left: 144px; */
+    margin-left: 982px;
+    /* margin-bottom: 4px; */
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    border-radius: 50px;
+    padding: 5px 10px;
+    border: 2px solid white;
+    width: 312px;
+}
+.footer-text-5{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -252px;
+    /* bottom: 242px; */
+    margin-left: 982px;
+}
+.footer-text-5 ul {
+    display: flex;
+    flex-direction: row; 
+    margin-left: 38px;
+}
+.footer-text-5 ul li{
+    margin-left: 18px;
+    list-style: none;
+}
+.footer-text-5 ul li i{
+    font-size: 30px;
+    color: white;
+}
